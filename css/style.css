@@ -248,11 +248,14 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #343148 !important;
     }
     
-    .navbar .navbar-brand span {
-        color: #ffffff;
+    .navbar .navbar-brand{
+        font-size: 15px;
+    }
+
+    .navbar .navbar-brand span{
+        color: #ff3f9b;
     }
     
     .navbar a.nav-link {
@@ -1933,7 +1936,6 @@ a:focus {
 
 .footer .footer-menu {
     width: 100%;
-    display: flex;
     justify-content: center;
 }
 
